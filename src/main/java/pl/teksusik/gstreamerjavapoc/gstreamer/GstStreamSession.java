@@ -164,7 +164,7 @@ public class GstStreamSession {
             this.flvmux = ElementFactory.make("flvmux", "flvmux_" + egress.getName());
             this.flvmux.set("streamable", true);
 
-            this.rtmpsink = ElementFactory.make("c", "rtmpsink_" + egress.getName());
+            this.rtmpsink = ElementFactory.make("rtmpsink", "rtmpsink_" + egress.getName());
             this.rtmpsink.set("location", egress.getUrl());
         }
     }
