@@ -84,7 +84,7 @@ State and configuration are kept in-memory for simplicity.
 
 ---
 
-### GstStreamSession Pipeline Overview
+## GstStreamSession Pipeline Overview
 
 This pipeline enables passthrough streaming from a single RTMP input (Ingress) to multiple RTMP outputs (Egress) using GStreamer.
 
